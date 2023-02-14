@@ -1,16 +1,15 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native'
 //import ContadorV2 from './contador/ContadorV2';
-import ListaProdutosV2 from './produtos/ListaProdutosV2';
-
+//import ListaProdutosV2 from './produtos/ListaProdutosV2';
+//import DigiteSeuNome from './DigiteSeuNome';
+import FlexBoxV1 from './layout/FlexBoxV1';
 function App() {
     return (
         <View style={style.container}>
             
-            
-            <ListaProdutosV2/>
-            
-            {/* <ContadorV2/> <ListaProdutos/>*/}
+            <FlexBoxV1/>
+            {/*<DigiteSeuNome/> <ListaProdutosV2/> <ContadorV2/> <ListaProdutos/>*/}
         </View>
 
     );
