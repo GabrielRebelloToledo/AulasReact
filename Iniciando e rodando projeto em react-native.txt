@@ -1,0 +1,7 @@
+---Usando Biblioteca nativa---
+npx react-native init
+npx react-native run-android
+
+---Usando Expo----
+expo init
+expo start
