@@ -5,3 +5,12 @@ npx react-native run-android
 ---Usando Expo----
 expo init
 expo start
+
+----Bibliotecas adicionais------
+npm install @react-navigation/native
+npx expo install react-native-screens react-native-safe-area-context
+npm install @react-navigation/native-stack
+npm install react-native-elements --save
+npm install react-native-vector-icons
+
+npx react-native link react-native-vector-icons

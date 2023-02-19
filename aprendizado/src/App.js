@@ -3,13 +3,13 @@ import { StyleSheet, Text, View } from 'react-native'
 //import ContadorV2 from './contador/ContadorV2';
 //import ListaProdutosV2 from './produtos/ListaProdutosV2';
 //import DigiteSeuNome from './DigiteSeuNome';
-import FlexBoxV1 from './layout/FlexBoxV1';
+import FlexBoxV2 from './layout/FlexBoxV2';
 function App() {
     return (
         <View style={style.container}>
             
-            <FlexBoxV1/>
-            {/*<DigiteSeuNome/> <ListaProdutosV2/> <ContadorV2/> <ListaProdutos/>*/}
+            <FlexBoxV2/>
+            {/* <FlexBoxV1/><DigiteSeuNome/> <ListaProdutosV2/> <ContadorV2/> <ListaProdutos/>*/}
         </View>
 
     );
